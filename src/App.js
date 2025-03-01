@@ -16,21 +16,25 @@ function App() {
     <BrowserRouter>
       <Navbar />
 
-      <Routes>
-        <Route path="/" element={<Shop />} />
-        <Route path="/men" element={<ShopCategory banner={men_banner} category="men" />} />
-        <Route path="/women" element={<ShopCategory banner={women_banner} category="women" />} />
-        <Route path="/kids" element={<ShopCategory banner={kid_banner} category="kid" />} />
-        <Route path="/product" element={<Product />}>
-          <Route path=":productId" element={<Product />} />
-        </Route>
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/login" element={<LoginSignup />} />
-      </Routes>
+      {/* Bootstrap class 'min-vh-100' to push footer down */}
+      <div className="container-fluid d-flex flex-column min-vh-100">
+        <div className="flex-grow-1">
+          <Routes>
+            <Route path="/" element={<Shop />} />
+            <Route path="/men" element={<ShopCategory banner={men_banner} category="men" />} />
+            <Route path="/women" element={<ShopCategory banner={women_banner} category="women" />} />
+            <Route path="/kids" element={<ShopCategory banner={kid_banner} category="kid" />} />
+            <Route path="/product" element={<Product />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/login" element={<LoginSignup />} />
+          </Routes>
+        </div>
 
-      <Footer />
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }
+
 
 export default App;
