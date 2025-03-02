@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dressshop/static/css/main.ef4574d6.css",
-    "main.js": "/dressshop/static/js/main.8ee97e4f.js",
+    "main.js": "/dressshop/static/js/main.3022660a.js",
     "static/js/787.1937f22b.chunk.js": "/dressshop/static/js/787.1937f22b.chunk.js",
     "static/media/banner_kids.png": "/dressshop/static/media/banner_kids.fff815a581793a7380fb.png",
     "static/media/banner_women.png": "/dressshop/static/media/banner_women.5a27fc4e4533e57e4676.png",
@@ -47,11 +47,11 @@
     "static/media/hand_icon.png": "/dressshop/static/media/hand_icon.9c7487cecb600f30901b.png",
     "index.html": "/dressshop/index.html",
     "main.ef4574d6.css.map": "/dressshop/static/css/main.ef4574d6.css.map",
-    "main.8ee97e4f.js.map": "/dressshop/static/js/main.8ee97e4f.js.map",
+    "main.3022660a.js.map": "/dressshop/static/js/main.3022660a.js.map",
     "787.1937f22b.chunk.js.map": "/dressshop/static/js/787.1937f22b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef4574d6.css",
-    "static/js/main.8ee97e4f.js"
+    "static/js/main.3022660a.js"
   ]
 }
